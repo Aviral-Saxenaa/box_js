@@ -1,0 +1,50 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-weight: 500;
+}
+body{
+        background-color: #6764EE;
+}
+.start{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        position: relative;
+        top: 30vh;
+        flex-direction: column;
+        height: 40vh;
+        width: 80vh;
+        background-color: white;
+}
+.container,.container2{
+
+        text-align: center;
+
+       
+}
+#btn{
+        background-color: #6764EE;
+        padding: 10px 10px;
+        color: white;
+        /* border: none; */
+        cursor: pointer;
+        margin-top: 10px;
+}
+#message-user{
+        padding: 5px;
+}
+.error{
+        width: 100%;
+        background-color: #FFD4CF;
+        text-align: center;
+        padding: 8px;
+}
+.notshow{
+        display: none;
+}
+.show{
+        display: block;
+}
